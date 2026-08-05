@@ -1,0 +1,404 @@
+/* ======================================== */
+/* TABLET */
+/* ======================================== */
+
+@media screen and (max-width: 992px) {
+
+    .navbar {
+
+        padding: 0 40px;
+
+    }
+
+    .hero {
+
+        padding: 100px 40px 60px;
+
+    }
+
+    .hero h1 {
+
+        font-size: 58px;
+
+    }
+
+      .hero-logo img{
+
+        width:340px;
+
+    }
+
+}
+
+
+/* ======================================== */
+/* MOBILE */
+/* ======================================== */
+
+@media screen and (max-width:768px) {
+
+    /* Navbar */
+
+    .navbar {
+
+        padding: 0 25px;
+        height: 75px;
+
+    }
+
+    .logo img {
+
+        width: 90px;
+
+    }
+
+    /* Menu Desktop Disembunyikan */
+
+    .nav-menu {
+
+        position: fixed;
+
+        top: 75px;
+
+        right: -100%;
+
+        width: 260px;
+
+        height: calc(100vh - 75px);
+
+        background: #F8F5EF;
+
+        display: flex;
+
+        flex-direction: column;
+
+        align-items: flex-start;
+
+        gap: 25px;
+
+        padding: 30px;
+
+        transition: .4s ease;
+
+        z-index: 999;
+    }
+
+    .nav-menu.active {
+
+        right: 0;
+
+    }
+
+    .hamburger {
+
+        display: block;
+
+    }
+
+    /* Hero */
+
+    .hero {
+
+        min-height: 80vh;
+
+        padding: 120px 25px 60px;
+
+        justify-content: center;
+
+        text-align: center;
+
+    }
+
+    .hero-left {
+
+        width: 100%;
+
+    }
+
+    .subtitle {
+
+        font-size: 13px;
+
+        letter-spacing: 2px;
+
+    }
+
+    .hero h1 {
+
+        font-size: 42px;
+
+        line-height: 1.2;
+
+    }
+
+    .description {
+
+        font-size: 16px;
+
+        line-height: 1.8;
+
+        margin: auto;
+
+    }
+
+    .btn {
+
+        padding: 14px 30px;
+
+        font-size: 15px;
+
+    }
+
+    /* Footer */
+
+    .footer {
+
+        padding: 15px 0;
+
+    }
+
+    .footer-content {
+
+        padding: 0 25px;
+
+        flex-direction: column;
+
+        gap: 8px;
+
+    }
+
+    .footer-left {
+
+        width: 100%;
+
+        text-align: center;
+
+    }
+
+    .footer-left img{
+
+    width:100px;
+
+}
+
+   
+
+    .footer-right {
+
+        width: 100%;
+
+        text-align: center;
+
+    }
+
+    .footer-right h4 {
+
+        font-size:14px;
+
+    margin-bottom:4px;
+
+    }
+
+    .footer-right p {
+
+        font-size: 13px;
+
+    }
+
+    /* ========================================
+   CONTACT
+======================================== */
+
+.contact-hero{
+
+    height:auto;
+
+    padding:120px 25px 70px;
+
+}
+
+.contact-hero h1{
+
+    font-size:38px;
+
+}
+
+.contact-container{
+
+    flex-direction:column;
+
+}
+
+.contact-section{
+
+    padding:70px 25px;
+
+}
+
+.contact-info h2,
+.contact-form h2{
+
+    font-size:28px;
+
+}
+
+.map-section{
+
+    height:350px;
+
+}
+
+}
+
+
+/* ======================================== */
+/* SMALL MOBILE */
+/* ======================================== */
+
+@media screen and (max-width:480px) {
+
+    .hero h1 {
+
+        font-size: 34px;
+
+    }
+
+    .description {
+
+        font-size: 15px;
+
+    }
+
+    .btn {
+
+        width: 100%;
+
+        text-align: center;
+
+    }
+
+}
+
+@media screen and (max-width:992px){
+
+    .hero-logo img{
+
+        width:340px;
+
+    }
+
+}
+
+@media screen and (max-width:768px){
+
+    .hero-logo img{
+
+        width:260px;
+
+    }
+
+    /* ========================================
+   ABOUT
+======================================== */
+
+.about-hero{
+
+    height:auto;
+
+    padding:120px 25px 60px;
+
+}
+
+.about-hero h1{
+
+    font-size:38px;
+
+}
+
+.about-company{
+
+    padding:70px 25px;
+
+}
+
+.about-container{
+
+    flex-direction:column;
+
+    gap:40px;
+
+}
+
+.about-image{
+
+    width:100%;
+
+}
+
+.about-image img{
+
+    width:100%;
+
+}
+
+.about-text{
+
+    width:100%;
+
+    text-align:center;
+
+}
+
+.about-text h2{
+
+    font-size:34px;
+
+}
+
+.about-text p{
+
+    font-size:15px;
+
+}
+
+}
+
+@media screen and (max-width:480px){
+
+    .hero-logo img{
+
+        width:220px;
+
+    }
+
+    /* ABOUT */
+
+.about-hero h1{
+
+    font-size:30px;
+
+}
+
+.about-text h2{
+
+    font-size:28px;
+
+}
+
+/* ========================================
+   Contact
+======================================== */
+
+.contact-hero h1{
+
+    font-size:30px;
+
+}
+
+.contact-section{
+
+    padding:60px 20px;
+
+}
+}
+
