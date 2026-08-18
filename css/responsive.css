@@ -22,109 +22,675 @@
 
     }
 
-      .hero-logo img{
+    .hero-logo img {
 
-        width:340px;
+        width: 340px;
+
+    }
+
+    .division-hero {
+
+        height: 50vh;
+
+        padding: 0 40px;
+
+    }
+
+    .division-hero h1 {
+
+        font-size: 46px;
+
+    }
+
+
+    /* Section */
+
+    .divisions-section {
+
+        padding: 80px 40px 100px;
+
+    }
+
+    .divisions-heading {
+
+        margin-bottom: 60px;
+
+    }
+
+    .divisions-heading h2 {
+
+        font-size: 42px;
+
+    }
+
+
+    /* Division */
+
+    .division-item {
+
+        min-height: 420px;
+
+        margin-bottom: 50px;
+
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    .division-item.reverse {
+
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    .division-image {
+
+        min-height: 420px;
+
+    }
+
+    .division-content {
+
+        padding: 45px;
+
+    }
+
+    .division-content h2 {
+
+        font-size: 44px;
 
     }
 
     /* ======================================== */
-/* News */
-/* ======================================== */
+    /* News */
+    /* ======================================== */
 
- .featured-news{
+    .featured-news {
 
-        margin:70px 40px;
+        margin: 70px 40px;
 
-        height:520px;
-
-    }
-
-    .featured-content{
-
-        left:45px;
-
-        bottom:45px;
-
-        max-width:520px;
+        height: 520px;
 
     }
 
-    .featured-content h2{
+    .featured-content {
 
-        font-size:38px;
+        left: 45px;
 
-    }
+        bottom: 45px;
 
-    .news-section{
-
-        padding:30px 40px 80px;
+        max-width: 520px;
 
     }
 
-     /* ======================================== */
-/* Gallery */
-/* ======================================== */
+    .featured-content h2 {
 
-.gallery-hero{
-
-        height:50vh;
+        font-size: 38px;
 
     }
 
-    .gallery-hero h1{
+    .news-section {
 
-        font-size:46px;
+        padding: 30px 40px 80px;
+
+    }
+
+    /* ======================================== */
+    /* Gallery */
+    /* ======================================== */
+
+    .gallery-hero {
+
+        height: 50vh;
+
+    }
+
+    .gallery-hero h1 {
+
+        font-size: 46px;
 
     }
 
     /* Featured */
 
-    .gallery-featured{
+    .gallery-featured {
 
-        margin:70px 40px;
+        margin: 70px 40px;
 
-        height:500px;
-
-    }
-
-    .gallery-featured-content{
-
-        left:40px;
-
-        bottom:40px;
+        height: 500px;
 
     }
 
-    .gallery-featured-content h2{
+    .gallery-featured-content {
 
-        font-size:38px;
+        left: 40px;
+
+        bottom: 40px;
+
+    }
+
+    .gallery-featured-content h2 {
+
+        font-size: 38px;
 
     }
 
     /* Section */
 
-    .gallery-section{
+    .gallery-section {
 
-        padding:30px 40px 80px;
+        padding: 30px 40px 80px;
 
     }
 
     /* Grid */
 
-    .gallery-grid{
+    .gallery-grid {
 
-        grid-template-columns:repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
 
-        gap:20px;
+        gap: 20px;
+
+    }
+
+    .gallery-item.large {
+
+        grid-column: span 2;
 
     }
 
-    .gallery-item.large{
+    /* =========================
+       ENERGY HERO
+    ========================= */
 
-        grid-column:span 2;
+    .energy-hero {
+
+        height: 55vh;
+
+        padding: 100px 40px 60px;
 
     }
+
+    .energy-hero h1 {
+
+        font-size: 50px;
+
+    }
+
+
+    /* =========================
+       ENERGY INTRO
+    ========================= */
+
+    .energy-intro {
+
+        padding: 90px 40px;
+
+    }
+
+    .energy-intro-container {
+
+        gap: 50px;
+
+    }
+
+    .energy-intro-content h2 {
+
+        font-size: 40px;
+
+    }
+
+
+    /* =========================
+       ENERGY PRODUCTS
+    ========================= */
+
+    .energy-products {
+
+        padding: 90px 40px;
+
+    }
+
+    .energy-products-header h2 {
+
+        font-size: 40px;
+
+    }
+
+    .energy-product-grid {
+
+        grid-template-columns: repeat(3, 1fr);
+
+        gap: 25px;
+
+    }
+
+    .energy-product-image {
+
+        height: 300px;
+
+    }
+
+    .energy-product-content {
+
+        padding: 25px;
+
+    }
+
+    .energy-product-content h3 {
+
+        font-size: 25px;
+
+    }
+
+
+    /* =========================
+       ENERGY CTA
+    ========================= */
+
+    .energy-cta {
+
+        padding: 90px 40px;
+
+    }
+
+    .energy-cta h2 {
+
+        font-size: 40px;
+
+    }
+
+    /* =========================
+       HORTI HERO
+    ========================= */
+
+    .horti-hero {
+
+        height: 55vh;
+
+        padding: 100px 40px 60px;
+
+    }
+
+    .horti-hero h1 {
+
+        font-size: 50px;
+
+    }
+
+
+    /* =========================
+       HORTI INTRO
+    ========================= */
+
+    .horti-intro {
+
+        padding: 90px 40px;
+
+    }
+
+    .horti-intro-container {
+
+        gap: 50px;
+
+    }
+
+    .horti-intro-content h2 {
+
+        font-size: 40px;
+
+    }
+
+
+    /* =========================
+       HORTI PRODUCTS
+    ========================= */
+
+    .horti-products {
+
+        padding: 90px 40px;
+
+    }
+
+    .horti-products-header h2 {
+
+        font-size: 40px;
+
+    }
+
+    .horti-product-grid {
+
+        grid-template-columns: repeat(3, 1fr);
+
+        gap: 25px;
+
+    }
+
+    .horti-product-image {
+
+        height: 300px;
+
+    }
+
+    .horti-product-content {
+
+        padding: 25px;
+
+    }
+
+    .horti-product-content h3 {
+
+        font-size: 24px;
+
+    }
+
+
+    /* =========================
+       HORTI CTA
+    ========================= */
+
+    .horti-cta {
+
+        padding: 90px 40px;
+
+    }
+
+    .horti-cta h2 {
+
+        font-size: 40px;
+
+    }
+
+    /* =========================
+       BOTANICALS HERO
+    ========================= */
+
+    .botanicals-hero {
+
+        height: 55vh;
+
+        padding: 100px 40px 60px;
+
+    }
+
+    .botanicals-hero h1 {
+
+        font-size: 50px;
+
+    }
+
+
+    /* =========================
+       BOTANICALS INTRO
+    ========================= */
+
+    .botanicals-intro {
+
+        padding: 90px 40px;
+
+    }
+
+    .botanicals-intro-container {
+
+        gap: 50px;
+
+    }
+
+    .botanicals-intro-content h2 {
+
+        font-size: 40px;
+
+    }
+
+
+    /* =========================
+       BOTANICALS PRODUCTS
+    ========================= */
+
+    .botanicals-products {
+
+        padding: 90px 40px;
+
+    }
+
+    .botanicals-products-header h2 {
+
+        font-size: 40px;
+
+    }
+
+    .botanicals-product-grid {
+
+        grid-template-columns: repeat(2, 1fr);
+
+        gap: 30px;
+
+    }
+
+    .botanicals-product-image {
+
+        height: 350px;
+
+    }
+
+    .botanicals-product-content {
+
+        padding: 30px;
+
+    }
+
+    .botanicals-product-content h3 {
+
+        font-size: 28px;
+
+    }
+
+
+    /* =========================
+       BOTANICALS CTA
+    ========================= */
+
+    .botanicals-cta {
+
+        padding: 90px 40px;
+
+    }
+
+    .botanicals-cta h2 {
+
+        font-size: 40px;
+
+    }
+
+
+
+    /* =========================
+       AGRO HERO
+    ========================= */
+
+    .agro-hero {
+
+        height: 55vh;
+
+        padding: 100px 40px 60px;
+
+    }
+
+    .agro-hero h1 {
+
+        font-size: 50px;
+
+    }
+
+
+    /* =========================
+       AGRO INTRO
+    ========================= */
+
+    .agro-intro {
+
+        padding: 90px 40px;
+
+    }
+
+    .agro-intro-container {
+
+        gap: 50px;
+
+    }
+
+    .agro-intro-content h2 {
+
+        font-size: 40px;
+
+    }
+
+
+    /* =========================
+       AGRO PRODUCTS
+    ========================= */
+
+    .agro-products {
+
+        padding: 90px 40px;
+
+    }
+
+    .agro-products-header h2 {
+
+        font-size: 40px;
+
+    }
+
+    .agro-product-grid {
+
+        gap: 30px;
+
+    }
+
+    .agro-product-image {
+
+        height: 320px;
+
+    }
+
+
+    /* =========================
+       AGRO CTA
+    ========================= */
+
+    .agro-cta {
+
+        padding: 90px 40px;
+
+    }
+
+    .agro-cta h2 {
+
+        font-size: 40px;
+
+    }
+
+    /* =========================
+       SPICES HERO
+    ========================= */
+
+    .spices-hero {
+
+        height: 55vh;
+
+        padding: 100px 40px 60px;
+
+    }
+
+    .spices-hero h1 {
+
+        font-size: 50px;
+
+    }
+
+
+    /* =========================
+       SPICES INTRO
+    ========================= */
+
+    .spices-intro {
+
+        padding: 90px 40px;
+
+    }
+
+    .spices-intro-container {
+
+        gap: 50px;
+
+    }
+
+    .spices-intro-content h2 {
+
+        font-size: 40px;
+
+    }
+
+
+    /* =========================
+       SPICES PRODUCTS
+    ========================= */
+
+    .spices-products {
+
+        padding: 90px 40px;
+
+    }
+
+    .spices-products-header h2 {
+
+        font-size: 40px;
+
+    }
+
+    .spices-product-grid {
+
+        grid-template-columns: repeat(3, 1fr);
+
+        gap: 25px;
+
+    }
+
+    .spices-product-image {
+
+        height: 300px;
+
+    }
+
+    .spices-product-content {
+
+        padding: 25px;
+
+    }
+
+    .spices-product-content h3 {
+
+        font-size: 24px;
+
+    }
+
+
+    /* =========================
+       SPICES CTA
+    ========================= */
+
+    .spices-cta {
+
+        padding: 90px 40px;
+
+    }
+
+    .spices-cta h2 {
+
+        font-size: 40px;
+
+    }
+
 
 }
 
@@ -273,13 +839,13 @@
 
     }
 
-    .footer-left img{
+    .footer-left img {
 
-    width:100px;
+        width: 100px;
 
-}
+    }
 
-   
+
 
     .footer-right {
 
@@ -291,9 +857,9 @@
 
     .footer-right h4 {
 
-        font-size:14px;
+        font-size: 14px;
 
-    margin-bottom:4px;
+        margin-bottom: 4px;
 
     }
 
@@ -303,254 +869,1369 @@
 
     }
 
+    .division-hero {
+
+        height: auto;
+
+        padding: 120px 25px 70px;
+
+    }
+
+    .division-hero h1 {
+
+        font-size: 38px;
+
+    }
+
+    .division-hero p {
+
+        font-size: 15px;
+
+    }
+
+
+    /* Section */
+
+    .divisions-section {
+
+        padding: 70px 25px 80px;
+
+    }
+
+    .divisions-heading {
+
+        margin-bottom: 50px;
+
+    }
+
+    .divisions-heading h2 {
+
+        font-size: 36px;
+
+    }
+
+    .divisions-heading p {
+
+        font-size: 15px;
+
+    }
+
+
+    /* Division */
+
+    .division-item,
+    .division-item.reverse {
+
+        display: flex;
+
+        flex-direction: column;
+
+        min-height: auto;
+
+        margin-bottom: 35px;
+
+        border-radius: 20px;
+
+    }
+
+    .division-item.reverse .division-image {
+
+        order: 1;
+
+    }
+
+    .division-item.reverse .division-content {
+
+        order: 2;
+
+    }
+
+    .division-image {
+
+        width: 100%;
+
+        height: 280px;
+
+        min-height: 280px;
+
+    }
+
+    .division-content {
+
+        padding: 35px 30px 40px;
+
+    }
+
+    .division-number {
+
+        margin-bottom: 20px;
+
+    }
+
+    .division-content h2 {
+
+        font-size: 38px;
+
+        margin: 15px 0;
+
+    }
+
+    .division-content p {
+
+        font-size: 16px;
+
+    }
+
+    .division-products {
+
+        font-size: 13px;
+
+    }
+
+    .division-link {
+
+        margin-top: 28px;
+
+    }
+
     /* ========================================
    CONTACT
 ======================================== */
 
-.contact-hero{
+    .contact-hero {
 
-    height:auto;
+        height: auto;
 
-    padding:120px 25px 70px;
-
-}
-
-.contact-hero h1{
-
-    font-size:38px;
-
-}
-
-.contact-container{
-
-    flex-direction:column;
-
-}
-
-.contact-section{
-
-    padding:70px 25px;
-
-}
-
-.contact-info h2,
-.contact-form h2{
-
-    font-size:28px;
-
-}
-
-.map-section{
-
-    height:350px;
-
-}
-
- /* ======================================== */
-/* News */
-/* ======================================== */
-
-.news-hero{
-
-        height:auto;
-
-        padding:120px 25px 70px;
+        padding: 120px 25px 70px;
 
     }
 
-    .news-hero h1{
+    .contact-hero h1 {
 
-        font-size:38px;
+        font-size: 38px;
 
     }
 
-    .news-hero p{
+    .contact-container {
 
-        font-size:15px;
+        flex-direction: column;
+
+    }
+
+    .contact-section {
+
+        padding: 70px 25px;
+
+    }
+
+    .contact-info h2,
+    .contact-form h2 {
+
+        font-size: 28px;
+
+    }
+
+    .map-section {
+
+        height: 350px;
+
+    }
+
+    /* ======================================== */
+    /* News */
+    /* ======================================== */
+
+    .news-hero {
+
+        height: auto;
+
+        padding: 120px 25px 70px;
+
+    }
+
+    .news-hero h1 {
+
+        font-size: 38px;
+
+    }
+
+    .news-hero p {
+
+        font-size: 15px;
 
     }
 
     /* Featured */
 
-    .featured-news{
+    .featured-news {
 
-        margin:50px 25px;
+        margin: 50px 25px;
 
-        height:420px;
+        height: 420px;
 
-        border-radius:20px;
-
-    }
-
-    .featured-content{
-
-        left:30px;
-
-        right:30px;
-
-        bottom:30px;
-
-        max-width:100%;
+        border-radius: 20px;
 
     }
 
-    .featured-content h2{
+    .featured-content {
 
-        font-size:28px;
+        left: 30px;
 
-    }
+        right: 30px;
 
-    .featured-content p{
+        bottom: 30px;
 
-        font-size:14px;
-
-        margin-bottom:22px;
+        max-width: 100%;
 
     }
 
-    .featured-content a{
+    .featured-content h2 {
 
-        padding:12px 24px;
+        font-size: 28px;
 
-        font-size:14px;
+    }
+
+    .featured-content p {
+
+        font-size: 14px;
+
+        margin-bottom: 22px;
+
+    }
+
+    .featured-content a {
+
+        padding: 12px 24px;
+
+        font-size: 14px;
 
     }
 
     /* News */
 
-    .news-section{
+    .news-section {
 
-        padding:20px 25px 70px;
-
-    }
-
-    .section-heading{
-
-        margin-bottom:45px;
+        padding: 20px 25px 70px;
 
     }
 
-    .section-heading h2{
+    .section-heading {
 
-        font-size:34px;
-
-    }
-
-    .news-grid{
-
-        grid-template-columns:1fr;
-
-        gap:30px;
+        margin-bottom: 45px;
 
     }
 
-    .news-card img{
+    .section-heading h2 {
 
-        height:220px;
-
-    }
-
-    .news-info{
-
-        padding:25px;
+        font-size: 34px;
 
     }
 
-    .news-info h3{
+    .news-grid {
 
-        font-size:22px;
+        grid-template-columns: 1fr;
 
-    }
-
-     /* ======================================== */
-/* Gallery */
-/* ======================================== */
-
-  .gallery-hero{
-
-        height:auto;
-
-        padding:120px 25px 70px;
+        gap: 30px;
 
     }
 
-    .gallery-hero h1{
+    .news-card img {
 
-        font-size:38px;
+        height: 220px;
 
     }
 
-    .gallery-hero p{
+    .news-info {
 
-        font-size:15px;
+        padding: 25px;
+
+    }
+
+    .news-info h3 {
+
+        font-size: 22px;
+
+    }
+
+    /* ======================================== */
+    /* Gallery */
+    /* ======================================== */
+
+    .gallery-hero {
+
+        height: auto;
+
+        padding: 120px 25px 70px;
+
+    }
+
+    .gallery-hero h1 {
+
+        font-size: 38px;
+
+    }
+
+    .gallery-hero p {
+
+        font-size: 15px;
 
     }
 
     /* Featured */
 
-    .gallery-featured{
+    .gallery-featured {
 
-        margin:50px 25px;
+        margin: 50px 25px;
 
-        height:360px;
+        height: 360px;
 
-        border-radius:20px;
-
-    }
-
-    .gallery-featured-content{
-
-        left:25px;
-
-        right:25px;
-
-        bottom:25px;
+        border-radius: 20px;
 
     }
 
-    .gallery-featured-content h2{
+    .gallery-featured-content {
 
-        font-size:28px;
+        left: 25px;
+
+        right: 25px;
+
+        bottom: 25px;
+
+    }
+
+    .gallery-featured-content h2 {
+
+        font-size: 28px;
 
     }
 
     /* Section */
 
-    .gallery-section{
+    .gallery-section {
 
-        padding:20px 25px 70px;
-
-    }
-
-    .gallery-grid{
-
-        grid-template-columns:1fr;
-
-        grid-auto-rows:240px;
-
-        gap:18px;
+        padding: 20px 25px 70px;
 
     }
 
-    .gallery-item.large{
+    .gallery-grid {
 
-        grid-column:span 1;
+        grid-template-columns: 1fr;
 
-    }
+        grid-auto-rows: 240px;
 
-    .gallery-overlay{
-
-        opacity:1;
-
-        padding:20px;
+        gap: 18px;
 
     }
 
-    .gallery-overlay h3{
+    .gallery-item.large {
 
-        font-size:20px;
+        grid-column: span 1;
 
     }
+
+    .gallery-overlay {
+
+        opacity: 1;
+
+        padding: 20px;
+
+    }
+
+    .gallery-overlay h3 {
+
+        font-size: 20px;
+
+    }
+
+    /* =========================
+       ENERGY HERO
+    ========================= */
+
+    .energy-hero {
+
+        height: auto;
+
+        min-height: 70vh;
+
+        padding: 120px 25px 70px;
+
+    }
+
+    .energy-hero-content {
+
+        width: 100%;
+
+    }
+
+    .energy-subtitle {
+
+        font-size: 13px;
+
+        letter-spacing: 2px;
+
+    }
+
+    .energy-hero h1 {
+
+        font-size: 40px;
+
+        line-height: 1.2;
+
+    }
+
+    .energy-hero p {
+
+        font-size: 15px;
+
+        line-height: 1.8;
+
+    }
+
+
+    /* =========================
+       ENERGY INTRO
+    ========================= */
+
+    .energy-intro {
+
+        padding: 70px 25px;
+
+    }
+
+    .energy-intro-container {
+
+        flex-direction: column;
+
+        gap: 40px;
+
+    }
+
+    .energy-intro-image {
+
+        width: 100%;
+
+    }
+
+    .energy-intro-image img {
+
+        width: 100%;
+
+    }
+
+    .energy-intro-content {
+
+        width: 100%;
+
+        text-align: center;
+
+    }
+
+    .energy-intro-content h2 {
+
+        font-size: 34px;
+
+        line-height: 1.25;
+
+    }
+
+    .energy-intro-content p {
+
+        font-size: 15px;
+
+        line-height: 1.8;
+
+    }
+
+
+    /* =========================
+       ENERGY PRODUCTS
+    ========================= */
+
+    .energy-products {
+
+        padding: 70px 25px;
+
+    }
+
+    .energy-products-header {
+
+        margin-bottom: 40px;
+
+    }
+
+    .energy-products-header h2 {
+
+        font-size: 34px;
+
+    }
+
+    .energy-products-header p {
+
+        font-size: 15px;
+
+    }
+
+
+    /* =========================
+       ENERGY PRODUCT GRID
+    ========================= */
+
+    .energy-product-grid {
+
+        grid-template-columns: 1fr;
+
+        gap: 30px;
+
+    }
+
+
+    /* =========================
+       ENERGY PRODUCT CARD
+    ========================= */
+
+    .energy-product-image {
+
+        height: 300px;
+
+    }
+
+    .energy-product-content {
+
+        padding: 30px;
+
+    }
+
+    .energy-product-content h3 {
+
+        font-size: 27px;
+
+    }
+
+    .energy-product-content p {
+
+        font-size: 15px;
+
+        line-height: 1.8;
+
+    }
+
+
+    /* =========================
+       ENERGY CTA
+    ========================= */
+
+    .energy-cta {
+
+        padding: 70px 25px;
+
+    }
+
+    .energy-cta h2 {
+
+        font-size: 34px;
+
+    }
+
+    .energy-cta p {
+
+        font-size: 15px;
+
+        line-height: 1.8;
+
+    }
+
+    /* =========================
+       HORTI HERO
+    ========================= */
+
+    .horti-hero {
+
+        height: auto;
+
+        min-height: 70vh;
+
+        padding: 120px 25px 70px;
+
+    }
+
+    .horti-hero-content {
+
+        width: 100%;
+
+    }
+
+    .horti-subtitle {
+
+        font-size: 13px;
+
+        letter-spacing: 2px;
+
+    }
+
+    .horti-hero h1 {
+
+        font-size: 40px;
+
+        line-height: 1.2;
+
+    }
+
+    .horti-hero p {
+
+        font-size: 15px;
+
+        line-height: 1.8;
+
+    }
+
+
+    /* =========================
+       HORTI INTRO
+    ========================= */
+
+    .horti-intro {
+
+        padding: 70px 25px;
+
+    }
+
+    .horti-intro-container {
+
+        flex-direction: column;
+
+        gap: 40px;
+
+    }
+
+    .horti-intro-image {
+
+        width: 100%;
+
+    }
+
+    .horti-intro-image img {
+
+        width: 100%;
+
+    }
+
+    .horti-intro-content {
+
+        width: 100%;
+
+        text-align: center;
+
+    }
+
+    .horti-intro-content h2 {
+
+        font-size: 34px;
+
+        line-height: 1.25;
+
+    }
+
+    .horti-intro-content p {
+
+        font-size: 15px;
+
+        line-height: 1.8;
+
+    }
+
+
+    /* =========================
+       HORTI PRODUCTS
+    ========================= */
+
+    .horti-products {
+
+        padding: 70px 25px;
+
+    }
+
+    .horti-products-header {
+
+        margin-bottom: 40px;
+
+    }
+
+    .horti-products-header h2 {
+
+        font-size: 34px;
+
+    }
+
+    .horti-products-header p {
+
+        font-size: 15px;
+
+    }
+
+
+    /* =========================
+       HORTI PRODUCT GRID
+    ========================= */
+
+    .horti-product-grid {
+
+        grid-template-columns: 1fr;
+
+        gap: 30px;
+
+    }
+
+
+    /* =========================
+       HORTI PRODUCT CARD
+    ========================= */
+
+    .horti-product-image {
+
+        height: 300px;
+
+    }
+
+    .horti-product-content {
+
+        padding: 30px;
+
+    }
+
+    .horti-product-content h3 {
+
+        font-size: 27px;
+
+    }
+
+    .horti-product-content p {
+
+        font-size: 15px;
+
+        line-height: 1.8;
+
+    }
+
+
+    /* =========================
+       HORTI CTA
+    ========================= */
+
+    .horti-cta {
+
+        padding: 70px 25px;
+
+    }
+
+    .horti-cta h2 {
+
+        font-size: 34px;
+
+    }
+
+    .horti-cta p {
+
+        font-size: 15px;
+
+        line-height: 1.8;
+
+    }
+
+    /* =========================
+       BOTANICALS HERO
+    ========================= */
+
+    .botanicals-hero {
+
+        height: auto;
+
+        min-height: 70vh;
+
+        padding: 120px 25px 70px;
+
+    }
+
+    .botanicals-hero-content {
+
+        width: 100%;
+
+    }
+
+    .botanicals-subtitle {
+
+        font-size: 13px;
+
+        letter-spacing: 2px;
+
+    }
+
+    .botanicals-hero h1 {
+
+        font-size: 40px;
+
+        line-height: 1.2;
+
+    }
+
+    .botanicals-hero p {
+
+        font-size: 15px;
+
+        line-height: 1.8;
+
+    }
+
+
+    /* =========================
+       BOTANICALS INTRO
+    ========================= */
+
+    .botanicals-intro {
+
+        padding: 70px 25px;
+
+    }
+
+    .botanicals-intro-container {
+
+        flex-direction: column;
+
+        gap: 40px;
+
+    }
+
+    .botanicals-intro-image {
+
+        width: 100%;
+
+    }
+
+    .botanicals-intro-image img {
+
+        width: 100%;
+
+    }
+
+    .botanicals-intro-content {
+
+        width: 100%;
+
+        text-align: center;
+
+    }
+
+    .botanicals-intro-content h2 {
+
+        font-size: 34px;
+
+        line-height: 1.25;
+
+    }
+
+    .botanicals-intro-content p {
+
+        font-size: 15px;
+
+        line-height: 1.8;
+
+    }
+
+
+    /* =========================
+       BOTANICALS PRODUCTS
+    ========================= */
+
+    .botanicals-products {
+
+        padding: 70px 25px;
+
+    }
+
+    .botanicals-products-header {
+
+        margin-bottom: 40px;
+
+    }
+
+    .botanicals-products-header h2 {
+
+        font-size: 34px;
+
+    }
+
+    .botanicals-products-header p {
+
+        font-size: 15px;
+
+    }
+
+
+    /* =========================
+       BOTANICALS PRODUCT GRID
+    ========================= */
+
+    .botanicals-product-grid {
+
+        grid-template-columns: 1fr;
+
+        gap: 30px;
+
+    }
+
+
+    /* =========================
+       BOTANICALS PRODUCT CARD
+    ========================= */
+
+    .botanicals-product-image {
+
+        height: 320px;
+
+    }
+
+    .botanicals-product-content {
+
+        padding: 30px;
+
+    }
+
+    .botanicals-product-content h3 {
+
+        font-size: 28px;
+
+    }
+
+    .botanicals-product-content p {
+
+        font-size: 15px;
+
+        line-height: 1.8;
+
+    }
+
+
+    /* =========================
+       BOTANICALS CTA
+    ========================= */
+
+    .botanicals-cta {
+
+        padding: 70px 25px;
+
+    }
+
+    .botanicals-cta h2 {
+
+        font-size: 34px;
+
+    }
+
+    .botanicals-cta p {
+
+        font-size: 15px;
+
+        line-height: 1.8;
+
+    }
+
+
+    /* =========================
+       AGRO HERO
+    ========================= */
+
+    .agro-hero {
+
+        height: auto;
+
+        min-height: 70vh;
+
+        padding: 120px 25px 70px;
+
+    }
+
+    .agro-hero-content {
+
+        width: 100%;
+
+    }
+
+    .agro-subtitle {
+
+        font-size: 13px;
+
+        letter-spacing: 2px;
+
+    }
+
+    .agro-hero h1 {
+
+        font-size: 40px;
+
+        line-height: 1.2;
+
+        margin: 20px 0;
+
+    }
+
+    .agro-hero p {
+
+        font-size: 15px;
+
+        line-height: 1.8;
+
+    }
+
+
+    /* =========================
+       AGRO INTRO
+    ========================= */
+
+    .agro-intro {
+
+        padding: 70px 25px;
+
+    }
+
+    .agro-intro-container {
+
+        flex-direction: column;
+
+        gap: 40px;
+
+    }
+
+    .agro-intro-image {
+
+        width: 100%;
+
+    }
+
+    .agro-intro-image img {
+
+        width: 100%;
+
+    }
+
+    .agro-intro-content {
+
+        width: 100%;
+
+        text-align: center;
+
+    }
+
+    .agro-intro-content h2 {
+
+        font-size: 34px;
+
+        line-height: 1.25;
+
+    }
+
+    .agro-intro-content p {
+
+        font-size: 15px;
+
+        line-height: 1.8;
+
+    }
+
+
+    /* =========================
+       AGRO PRODUCTS
+    ========================= */
+
+    .agro-products {
+
+        padding: 70px 25px;
+
+    }
+
+    .agro-products-header {
+
+        margin-bottom: 40px;
+
+    }
+
+    .agro-products-header h2 {
+
+        font-size: 34px;
+
+    }
+
+    .agro-products-header p {
+
+        font-size: 15px;
+
+    }
+
+
+    /* =========================
+       PRODUCT GRID
+    ========================= */
+
+    .agro-product-grid {
+
+        grid-template-columns: 1fr;
+
+        gap: 30px;
+
+    }
+
+
+    /* =========================
+       PRODUCT CARD
+    ========================= */
+
+    .agro-product-image {
+
+        height: 300px;
+
+    }
+
+    .agro-product-content {
+
+        padding: 30px;
+
+    }
+
+    .agro-product-content h3 {
+
+        font-size: 27px;
+
+    }
+
+    .agro-product-content p {
+
+        font-size: 15px;
+
+        line-height: 1.8;
+
+    }
+
+
+    /* =========================
+       AGRO CTA
+    ========================= */
+
+    .agro-cta {
+
+        padding: 70px 25px;
+
+    }
+
+    .agro-cta h2 {
+
+        font-size: 34px;
+
+    }
+
+    .agro-cta p {
+
+        font-size: 15px;
+
+        line-height: 1.8;
+
+    }
+
+    /* =========================
+       SPICES HERO
+    ========================= */
+
+    .spices-hero {
+
+        height: auto;
+
+        min-height: 70vh;
+
+        padding: 120px 25px 70px;
+
+    }
+
+    .spices-hero-content {
+
+        width: 100%;
+
+    }
+
+    .spices-subtitle {
+
+        font-size: 13px;
+
+        letter-spacing: 2px;
+
+    }
+
+    .spices-hero h1 {
+
+        font-size: 40px;
+
+        line-height: 1.2;
+
+    }
+
+    .spices-hero p {
+
+        font-size: 15px;
+
+        line-height: 1.8;
+
+    }
+
+
+    /* =========================
+       SPICES INTRO
+    ========================= */
+
+    .spices-intro {
+
+        padding: 70px 25px;
+
+    }
+
+    .spices-intro-container {
+
+        flex-direction: column;
+
+        gap: 40px;
+
+    }
+
+    .spices-intro-image {
+
+        width: 100%;
+
+    }
+
+    .spices-intro-image img {
+
+        width: 100%;
+
+    }
+
+    .spices-intro-content {
+
+        width: 100%;
+
+        text-align: center;
+
+    }
+
+    .spices-intro-content h2 {
+
+        font-size: 34px;
+
+        line-height: 1.25;
+
+    }
+
+    .spices-intro-content p {
+
+        font-size: 15px;
+
+        line-height: 1.8;
+
+    }
+
+
+    /* =========================
+       SPICES PRODUCTS
+    ========================= */
+
+    .spices-products {
+
+        padding: 70px 25px;
+
+    }
+
+    .spices-products-header {
+
+        margin-bottom: 40px;
+
+    }
+
+    .spices-products-header h2 {
+
+        font-size: 34px;
+
+    }
+
+    .spices-products-header p {
+
+        font-size: 15px;
+
+    }
+
+
+    /* =========================
+       SPICES PRODUCT GRID
+    ========================= */
+
+    .spices-product-grid {
+
+        grid-template-columns: 1fr;
+
+        gap: 30px;
+
+    }
+
+
+    /* =========================
+       SPICES PRODUCT CARD
+    ========================= */
+
+    .spices-product-image {
+
+        height: 300px;
+
+    }
+
+    .spices-product-content {
+
+        padding: 30px;
+
+    }
+
+    .spices-product-content h3 {
+
+        font-size: 27px;
+
+    }
+
+    .spices-product-content p {
+
+        font-size: 15px;
+
+        line-height: 1.8;
+
+    }
+
+
+    /* =========================
+       SPICES CTA
+    ========================= */
+
+    .spices-cta {
+
+        padding: 70px 25px;
+
+    }
+
+    .spices-cta h2 {
+
+        font-size: 34px;
+
+    }
+
+    .spices-cta p {
+
+        font-size: 15px;
+
+        line-height: 1.8;
+
+    }
+
+
 
 }
 
@@ -583,21 +2264,21 @@
 
 }
 
-@media screen and (max-width:992px){
+@media screen and (max-width:992px) {
 
-    .hero-logo img{
+    .hero-logo img {
 
-        width:340px;
+        width: 340px;
 
     }
 
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width:768px) {
 
-    .hero-logo img{
+    .hero-logo img {
 
-        width:260px;
+        width: 260px;
 
     }
 
@@ -605,227 +2286,829 @@
    ABOUT
 ======================================== */
 
-.about-hero{
+    .about-hero {
 
-    height:auto;
+        height: auto;
 
-    padding:120px 25px 60px;
+        padding: 120px 25px 60px;
+
+    }
+
+    .about-hero h1 {
+
+        font-size: 38px;
+
+    }
+
+    .about-company {
+
+        padding: 70px 25px;
+
+    }
+
+    .about-container {
+
+        flex-direction: column;
+
+        gap: 40px;
+
+    }
+
+    .about-image {
+
+        width: 100%;
+
+    }
+
+    .about-image img {
+
+        width: 100%;
+
+    }
+
+    .about-text {
+
+        width: 100%;
+
+        text-align: center;
+
+    }
+
+    .about-text h2 {
+
+        font-size: 34px;
+
+    }
+
+    .about-text p {
+
+        font-size: 15px;
+
+    }
 
 }
 
-.about-hero h1{
+@media screen and (max-width:480px) {
 
-    font-size:38px;
+    .hero-logo img {
 
-}
-
-.about-company{
-
-    padding:70px 25px;
-
-}
-
-.about-container{
-
-    flex-direction:column;
-
-    gap:40px;
-
-}
-
-.about-image{
-
-    width:100%;
-
-}
-
-.about-image img{
-
-    width:100%;
-
-}
-
-.about-text{
-
-    width:100%;
-
-    text-align:center;
-
-}
-
-.about-text h2{
-
-    font-size:34px;
-
-}
-
-.about-text p{
-
-    font-size:15px;
-
-}
-
-}
-
-@media screen and (max-width:480px){
-
-    .hero-logo img{
-
-        width:220px;
+        width: 220px;
 
     }
 
     /* ABOUT */
 
-.about-hero h1{
+    .about-hero h1 {
 
-    font-size:30px;
+        font-size: 30px;
 
-}
+    }
 
-.about-text h2{
+    .about-text h2 {
 
-    font-size:28px;
+        font-size: 28px;
 
-}
+    }
 
-/* ========================================
+    /* ========================================
    Contact
 ======================================== */
 
-.contact-hero h1{
+    .contact-hero h1 {
 
-    font-size:30px;
+        font-size: 30px;
 
-}
+    }
 
-.contact-section{
+    .contact-section {
 
-    padding:60px 20px;
+        padding: 60px 20px;
 
-}
+    }
 
-/* ========================================
+    /* ========================================
    News
 ======================================== */
 
- .news-hero h1{
+    .news-hero h1 {
 
-        font-size:30px;
-
-    }
-
-    .news-subtitle{
-
-        font-size:12px;
-
-        letter-spacing:2px;
+        font-size: 30px;
 
     }
 
-    .featured-news{
+    .news-subtitle {
 
-        height:340px;
+        font-size: 12px;
 
-        margin:40px 18px;
-
-    }
-
-    .featured-content{
-
-        left:20px;
-
-        right:20px;
-
-        bottom:20px;
+        letter-spacing: 2px;
 
     }
 
-    .featured-content h2{
+    .featured-news {
 
-        font-size:22px;
+        height: 340px;
 
-    }
-
-    .featured-content p{
-
-        display:none;
+        margin: 40px 18px;
 
     }
 
-    .featured-content a{
+    .featured-content {
 
-        width:100%;
+        left: 20px;
 
-        text-align:center;
+        right: 20px;
 
-    }
-
-    .section-heading h2{
-
-        font-size:28px;
+        bottom: 20px;
 
     }
 
-    .news-info h3{
+    .featured-content h2 {
 
-        font-size:20px;
-
-    }
-
-     /* ======================================== */
-/* Gallery */
-/* ======================================== */
-
- .gallery-hero h1{
-
-        font-size:30px;
+        font-size: 22px;
 
     }
 
-    .gallery-subtitle{
+    .featured-content p {
 
-        font-size:12px;
-
-        letter-spacing:2px;
+        display: none;
 
     }
 
-    .gallery-featured{
+    .featured-content a {
 
-        height:280px;
+        width: 100%;
 
-        margin:40px 18px;
-
-    }
-
-    .gallery-featured-content{
-
-        left:18px;
-
-        right:18px;
-
-        bottom:18px;
+        text-align: center;
 
     }
 
-    .gallery-featured-content h2{
+    .section-heading h2 {
 
-        font-size:22px;
-
-    }
-
-    .gallery-grid{
-
-        grid-auto-rows:210px;
+        font-size: 28px;
 
     }
 
-    .gallery-overlay h3{
+    .news-info h3 {
 
-        font-size:18px;
+        font-size: 20px;
 
     }
 
+    /* ======================================== */
+    /* Gallery */
+    /* ======================================== */
+
+    .gallery-hero h1 {
+
+        font-size: 30px;
+
+    }
+
+    .gallery-subtitle {
+
+        font-size: 12px;
+
+        letter-spacing: 2px;
+
+    }
+
+    .gallery-featured {
+
+        height: 280px;
+
+        margin: 40px 18px;
+
+    }
+
+    .gallery-featured-content {
+
+        left: 18px;
+
+        right: 18px;
+
+        bottom: 18px;
+
+    }
+
+    .gallery-featured-content h2 {
+
+        font-size: 22px;
+
+    }
+
+    .gallery-grid {
+
+        grid-auto-rows: 210px;
+
+    }
+
+    .gallery-overlay h3 {
+
+        font-size: 18px;
+
+    }
+
+    .division-hero {
+
+        padding: 115px 20px 60px;
+
+    }
+
+    .division-hero h1 {
+
+        font-size: 30px;
+
+    }
+
+    .division-subtitle {
+
+        font-size: 12px;
+
+        letter-spacing: 2px;
+
+    }
+
+    .divisions-section {
+
+        padding: 60px 18px 70px;
+
+    }
+
+    .divisions-heading h2 {
+
+        font-size: 30px;
+
+    }
+
+    .division-item {
+
+        border-radius: 18px;
+
+    }
+
+    .division-image {
+
+        height: 220px;
+
+        min-height: 220px;
+
+    }
+
+    .division-content {
+
+        padding: 28px 24px 32px;
+
+    }
+
+    .division-content h2 {
+
+        font-size: 32px;
+
+    }
+
+    .division-content p {
+
+        font-size: 15px;
+
+    }
+
+    /* =========================
+       ENERGY HERO
+    ========================= */
+
+    .energy-hero {
+
+        padding: 110px 20px 60px;
+
+    }
+
+    .energy-hero h1 {
+
+        font-size: 32px;
+
+    }
+
+    .energy-hero p {
+
+        font-size: 14px;
+
+    }
+
+
+    /* =========================
+       ENERGY INTRO
+    ========================= */
+
+    .energy-intro {
+
+        padding: 60px 20px;
+
+    }
+
+    .energy-intro-content h2 {
+
+        font-size: 28px;
+
+    }
+
+    .energy-intro-content p {
+
+        font-size: 14px;
+
+    }
+
+
+    /* =========================
+       ENERGY PRODUCTS
+    ========================= */
+
+    .energy-products {
+
+        padding: 60px 20px;
+
+    }
+
+    .energy-products-header h2 {
+
+        font-size: 29px;
+
+    }
+
+
+    /* =========================
+       ENERGY PRODUCT CARD
+    ========================= */
+
+    .energy-product-image {
+
+        height: 240px;
+
+    }
+
+    .energy-product-content {
+
+        padding: 25px;
+
+    }
+
+    .energy-product-content h3 {
+
+        font-size: 24px;
+
+    }
+
+    .energy-product-content p {
+
+        font-size: 14px;
+
+    }
+
+
+    /* =========================
+       ENERGY CTA
+    ========================= */
+
+    .energy-cta {
+
+        padding: 60px 20px;
+
+    }
+
+    .energy-cta h2 {
+
+        font-size: 29px;
+
+    }
+
+    /* =========================
+       HORTI HERO
+    ========================= */
+
+    .horti-hero {
+
+        padding: 110px 20px 60px;
+
+    }
+
+    .horti-hero h1 {
+
+        font-size: 32px;
+
+    }
+
+    .horti-hero p {
+
+        font-size: 14px;
+
+    }
+
+
+    /* =========================
+       HORTI INTRO
+    ========================= */
+
+    .horti-intro {
+
+        padding: 60px 20px;
+
+    }
+
+    .horti-intro-content h2 {
+
+        font-size: 28px;
+
+    }
+
+    .horti-intro-content p {
+
+        font-size: 14px;
+
+    }
+
+
+    /* =========================
+       HORTI PRODUCTS
+    ========================= */
+
+    .horti-products {
+
+        padding: 60px 20px;
+
+    }
+
+    .horti-products-header h2 {
+
+        font-size: 29px;
+
+    }
+
+
+    /* =========================
+       HORTI PRODUCT CARD
+    ========================= */
+
+    .horti-product-image {
+
+        height: 240px;
+
+    }
+
+    .horti-product-content {
+
+        padding: 25px;
+
+    }
+
+    .horti-product-content h3 {
+
+        font-size: 24px;
+
+    }
+
+    .horti-product-content p {
+
+        font-size: 14px;
+
+    }
+
+
+    /* =========================
+       HORTI CTA
+    ========================= */
+
+    .horti-cta {
+
+        padding: 60px 20px;
+
+    }
+
+    .horti-cta h2 {
+
+        font-size: 29px;
+
+    }
+
+    /* =========================
+       BOTANICALS HERO
+    ========================= */
+
+    .botanicals-hero {
+
+        padding: 110px 20px 60px;
+
+    }
+
+    .botanicals-hero h1 {
+
+        font-size: 32px;
+
+    }
+
+    .botanicals-hero p {
+
+        font-size: 14px;
+
+    }
+
+
+    /* =========================
+       BOTANICALS INTRO
+    ========================= */
+
+    .botanicals-intro {
+
+        padding: 60px 20px;
+
+    }
+
+    .botanicals-intro-content h2 {
+
+        font-size: 28px;
+
+    }
+
+    .botanicals-intro-content p {
+
+        font-size: 14px;
+
+    }
+
+
+    /* =========================
+       BOTANICALS PRODUCTS
+    ========================= */
+
+    .botanicals-products {
+
+        padding: 60px 20px;
+
+    }
+
+    .botanicals-products-header h2 {
+
+        font-size: 29px;
+
+    }
+
+
+    /* =========================
+       BOTANICALS PRODUCT CARD
+    ========================= */
+
+    .botanicals-product-image {
+
+        height: 240px;
+
+    }
+
+    .botanicals-product-content {
+
+        padding: 25px;
+
+    }
+
+    .botanicals-product-content h3 {
+
+        font-size: 24px;
+
+    }
+
+    .botanicals-product-content p {
+
+        font-size: 14px;
+
+    }
+
+
+    /* =========================
+       BOTANICALS CTA
+    ========================= */
+
+    .botanicals-cta {
+
+        padding: 60px 20px;
+
+    }
+
+    .botanicals-cta h2 {
+
+        font-size: 29px;
+
+    }
+
+    /* =========================
+       AGRO HERO
+    ========================= */
+
+    .agro-hero {
+
+        padding: 110px 20px 60px;
+
+    }
+
+    .agro-hero h1 {
+
+        font-size: 32px;
+
+    }
+
+    .agro-hero p {
+
+        font-size: 14px;
+
+    }
+
+
+    /* =========================
+       AGRO INTRO
+    ========================= */
+
+    .agro-intro {
+
+        padding: 60px 20px;
+
+    }
+
+    .agro-intro-content h2 {
+
+        font-size: 28px;
+
+    }
+
+    .agro-intro-content p {
+
+        font-size: 14px;
+
+    }
+
+
+    /* =========================
+       AGRO PRODUCTS
+    ========================= */
+
+    .agro-products {
+
+        padding: 60px 20px;
+
+    }
+
+    .agro-products-header h2 {
+
+        font-size: 29px;
+
+    }
+
+
+    /* =========================
+       PRODUCT CARD
+    ========================= */
+
+    .agro-product-image {
+
+        height: 240px;
+
+    }
+
+    .agro-product-content {
+
+        padding: 25px;
+
+    }
+
+    .agro-product-content h3 {
+
+        font-size: 24px;
+
+    }
+
+    .agro-product-content p {
+
+        font-size: 14px;
+
+    }
+
+
+    /* =========================
+       AGRO CTA
+    ========================= */
+
+    .agro-cta {
+
+        padding: 60px 20px;
+
+    }
+
+    .agro-cta h2 {
+
+        font-size: 29px;
+
+    }
+
+    /* =========================
+       SPICES HERO
+    ========================= */
+
+    .spices-hero {
+
+        padding: 110px 20px 60px;
+
+    }
+
+    .spices-hero h1 {
+
+        font-size: 32px;
+
+    }
+
+    .spices-hero p {
+
+        font-size: 14px;
+
+    }
+
+
+    /* =========================
+       SPICES INTRO
+    ========================= */
+
+    .spices-intro {
+
+        padding: 60px 20px;
+
+    }
+
+    .spices-intro-content h2 {
+
+        font-size: 28px;
+
+    }
+
+    .spices-intro-content p {
+
+        font-size: 14px;
+
+    }
+
+
+    /* =========================
+       SPICES PRODUCTS
+    ========================= */
+
+    .spices-products {
+
+        padding: 60px 20px;
+
+    }
+
+    .spices-products-header h2 {
+
+        font-size: 29px;
+
+    }
+
+
+    /* =========================
+       SPICES PRODUCT CARD
+    ========================= */
+
+    .spices-product-image {
+
+        height: 240px;
+
+    }
+
+    .spices-product-content {
+
+        padding: 25px;
+
+    }
+
+    .spices-product-content h3 {
+
+        font-size: 24px;
+
+    }
+
+    .spices-product-content p {
+
+        font-size: 14px;
+
+    }
+
+
+    /* =========================
+       SPICES CTA
+    ========================= */
+
+    .spices-cta {
+
+        padding: 60px 20px;
+
+    }
+
+    .spices-cta h2 {
+
+        font-size: 29px;
+
+    }
 }
-
