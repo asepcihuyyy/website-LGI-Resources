@@ -998,7 +998,7 @@
    CONTACT
 ======================================== */
 
-    .contact-hero {
+     .contact-hero {
 
         height: auto;
 
@@ -1012,11 +1012,6 @@
 
     }
 
-    .contact-container {
-
-        flex-direction: column;
-
-    }
 
     .contact-section {
 
@@ -1024,12 +1019,77 @@
 
     }
 
-    .contact-info h2,
-    .contact-form h2 {
+
+    .contact-container {
+
+        flex-direction: column;
+
+        gap: 50px;
+
+    }
+
+
+    /* =========================
+       CONTACT INFO
+    ========================= */
+
+    .contact-info {
+
+        width: 100%;
+
+    }
+
+    .contact-info h2 {
 
         font-size: 28px;
 
     }
+
+
+    /* =========================
+       PARTNERSHIP
+    ========================= */
+
+    .contact-partnership {
+
+        width: 100%;
+
+        padding-left: 0;
+
+        text-align: center;
+
+        align-items: center;
+
+    }
+
+    .contact-partnership h2 {
+
+        font-size: 34px;
+
+    }
+
+    .contact-partnership p {
+
+        font-size: 15px;
+
+        line-height: 1.8;
+
+        margin-left: auto;
+
+        margin-right: auto;
+
+    }
+
+    .contact-partnership .btn {
+
+        align-self: center;
+
+    }
+
+
+    /* =========================
+       MAP
+    ========================= */
 
     .map-section {
 
@@ -2380,11 +2440,50 @@
 
     }
 
+
     .contact-section {
 
         padding: 60px 20px;
 
     }
+
+
+    .contact-container {
+
+        gap: 40px;
+
+    }
+
+
+    .contact-info h2 {
+
+        font-size: 28px;
+
+    }
+
+
+    .contact-partnership h2 {
+
+        font-size: 29px;
+
+    }
+
+
+    .contact-partnership p {
+
+        font-size: 14px;
+
+    }
+
+
+    .contact-partnership .btn {
+
+        padding: 14px 30px;
+
+        font-size: 14px;
+
+    }
+
 
     /* ========================================
    News

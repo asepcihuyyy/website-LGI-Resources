@@ -582,69 +582,69 @@ html {
 }
 
 
-/* FORM */
+/* ========================================
+   PARTNERSHIP
+======================================== */
 
-.contact-form form {
+.contact-partnership {
+
+    flex: 1;
 
     display: flex;
 
     flex-direction: column;
 
-    gap: 20px;
+    justify-content: center;
+
+    padding-left: 30px;
 
 }
 
-.contact-form input,
-.contact-form textarea {
 
-    width: 100%;
+.contact-partnership .section-title {
 
-    padding: 18px;
+    color: #C8A55B;
 
-    border: 1px solid #DDD;
+    letter-spacing: 3px;
 
-    border-radius: 12px;
+    font-size: 14px;
 
-    font-family: 'Montserrat', sans-serif;
-
-    font-size: 15px;
-
-    outline: none;
-
-    transition: .3s;
+    font-weight: 600;
 
 }
 
-.contact-form input:focus,
-.contact-form textarea:focus {
 
-    border-color: #C8A55B;
+.contact-partnership h2 {
 
-}
+    font-size: 48px;
 
-.contact-form button {
+    line-height: 1.2;
 
-    background: #C8A55B;
+    margin: 20px 0;
 
-    color: white;
-
-    border: none;
-
-    padding: 16px;
-
-    border-radius: 50px;
-
-    cursor: pointer;
-
-    font-size: 15px;
-
-    transition: .35s;
+    color: #2B2B2B;
 
 }
 
-.contact-form button:hover {
 
-    background: #B48E46;
+.contact-partnership p {
+
+    color: #666;
+
+    line-height: 1.9;
+
+    max-width: 480px;
+
+    margin-bottom: 10px;
+
+}
+
+
+.contact-partnership .btn {
+
+    align-self: flex-start;
+
+    margin-top: 25px;
 
 }
 
