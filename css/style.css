@@ -3717,3 +3717,15 @@ html {
     margin-top: 35px;
 
 }
+
+/* ========================================
+   FORCE LIGHT MODE
+======================================== */
+
+:root {
+    color-scheme: light;
+}
+
+html {
+    color-scheme: light;
+}
